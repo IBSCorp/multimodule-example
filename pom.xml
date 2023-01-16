@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>ru.ibsqa.qualit</groupId>
+    <artifactId>qualit-bom</artifactId>
+    <version>3.3-BETA-SNAPSHOT</version>
+  </parent>
+  <groupId>org.example</groupId>
+  <artifactId>multimodule-example</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>db-example</module>
+    <module>rest-api-example</module>
+    <module>web-example</module>
+  </modules>
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <id>qualit-snapshots</id>
+      <name>IBS QualIT Snapshots Repo</name>
+      <url>https://nexus.appline.ru/repository/qualit-snapshots</url>
+    </repository>
+  </repositories>
+</project>

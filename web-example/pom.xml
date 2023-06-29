@@ -10,16 +10,16 @@
   <artifactId>web-example</artifactId>
   <dependencies>
     <dependency>
-      <groupId>ru.ibsqa.qualit</groupId>
-      <artifactId>qualit-web-cucumber</artifactId>
+      <groupId>ru.ibsqa.chameleon</groupId>
+      <artifactId>chameleon-web-cucumber</artifactId>
     </dependency>
     <dependency>
-      <groupId>ru.ibsqa.qualit</groupId>
-      <artifactId>qualit-log</artifactId>
+      <groupId>ru.ibsqa.chameleon</groupId>
+      <artifactId>chameleon-log</artifactId>
     </dependency>
     <dependency>
-      <groupId>ru.ibsqa.qualit</groupId>
-      <artifactId>qualit-allure-cucumber</artifactId>
+      <groupId>ru.ibsqa.chameleon</groupId>
+      <artifactId>chameleon-allure-cucumber</artifactId>
     </dependency>
   </dependencies>
 </project>

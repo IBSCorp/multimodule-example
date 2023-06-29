@@ -3,9 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>ru.ibsqa.qualit</groupId>
-    <artifactId>qualit-bom</artifactId>
-    <version>3.4.1</version>
+    <groupId>ru.ibsqa.chameleon</groupId>
+    <artifactId>chameleon-bom</artifactId>
+    <version>3.5.0</version>
   </parent>
   <groupId>org.example</groupId>
   <artifactId>multimodule-example</artifactId>
@@ -18,9 +18,9 @@
   </modules>
   <repositories>
     <repository>
-      <id>qualit</id>
-      <name>QualIT Framework</name>
-      <url>https://nexus.appline.ru/repository/qualit</url>
+      <id>chameleon</id>
+      <name>Chameleon Framework</name>
+      <url>https://nexus.appline.ru/repository/chameleon</url>
     </repository>
   </repositories>
 </project>
